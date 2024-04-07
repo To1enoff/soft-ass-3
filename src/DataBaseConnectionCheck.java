@@ -8,5 +8,7 @@ public class DataBaseConnectionCheck {
         dbConnection.getConnectionProperties().forEach((key, value) -> System.out.println(key + ": " + value));
 
         dbConnection.executeQuery("SELECT * FROM users");
+
+
     }
 }
